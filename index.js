@@ -24,10 +24,13 @@ class Bird {
         this.sex = sex;
     }
     speak(){
-        if(this.sex === "male"){
+        if(this.sex === "Male"){
             return `It's me! ${this.name}, the parrot!`;
         }else{
             return `${this.name} says squawk!`;
         }
     }
 };
+let fluffy = new Cat("Patches", "Female");
+let woofy = new Dog("Woofy", "Male");
+let crackers = new Bird("Crackers", "Male");
